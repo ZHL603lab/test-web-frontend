@@ -10,7 +10,8 @@ const Page = () => {
               <h2 className="text-xs text-indigo-500 tracking-widest font-medium title-font mb-1">1/10</h2>
             </div>
 
-            <FillInTheBlank />
+            <FillInTheBlank problem={"在Windows中，路径一般分为相对路径与(   )路径"} />
+
             <button className="flex mx-auto mt-16 text-white bg-indigo-500 border-0 py-2 px-8 focus:outline-none hover:bg-indigo-600 rounded text-lg">提交</button>
           </div>
         </section>

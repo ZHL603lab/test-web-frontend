@@ -1,4 +1,5 @@
 import Image from "next/image";
+import Link from "next/link";
 
 export default function Home() {
   return (
@@ -34,12 +35,12 @@ export default function Home() {
               一个现代化的、简约的高效刷题网站，让你快速提升
             </p>
             <div className="mt-10 flex items-center justify-center gap-x-6">
-              <a
-                href="#"
+              <Link
+                href="/Practice"
                 className="rounded-md bg-indigo-600 px-3.5 py-2.5 text-sm font-semibold text-white shadow-sm hover:bg-indigo-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600"
               >
                 点击开始
-              </a>
+              </Link>
               <a
                 href="#"
                 className="text-sm font-semibold leading-6 text-gray-900"

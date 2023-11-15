@@ -1,4 +1,4 @@
-import Card from "@/app/Practice/Card";
+import Card from "@/app/Practice/_component/Card";
 
 const Page = () => {
   return (
