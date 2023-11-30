@@ -1,8 +1,8 @@
 import type { Metadata } from "next";
 import { Inter } from "next/font/google";
-import "./_asset/globals.css";
-import NavBar from "@/app/_component/NavBar";
-import Footer from "@/app/_component/Footer";
+import "@/app/(asset)/globals.css";
+import NavBar from "@/app/(components)/NavBar";
+import Footer from "@/app/(components)/Footer";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -21,7 +21,7 @@ export default function RootLayout({
       <html lang="en">
         <body className={inter.className}>
           <div className="bg-white">
-            <header className="absolute inset-x-0 top-0 z-50">
+            <header className="fixed bg-white shadow-md inset-x-0 top-0 z-50">
               <NavBar />
             </header>
             <main className="py-24">

@@ -1,0 +1,5 @@
+{
+  "files.autoSave": "off",
+  "Prettier-SQL.tabSizeOverride": 4,
+  "prettier.tabWidth": 4
+}

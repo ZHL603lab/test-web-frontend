@@ -2,8 +2,8 @@ import Link from "next/link";
 
 const navigation = [
   { name: "首页", href: "/" },
-  { name: "在线刷题", href: "/Practice" },
-  { name: "关于", href: "/About"},
+  { name: "在线刷题", href: "/practice/list" },
+  { name: "关于", href: "/about"},
 ];
 
 export default function NavBar() {
